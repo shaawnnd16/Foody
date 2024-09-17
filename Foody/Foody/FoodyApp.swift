@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct FoodyApp: App {
+struct CookingApp: App {
+    @StateObject private var pantryManager = PantryManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabBarView()
+                .environmentObject(pantryManager) // Inject PantryManager into the environment
         }
     }
 }

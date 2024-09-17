@@ -11,6 +11,13 @@
 		CE8A21A32C99E2FF00F649DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A21A22C99E2FF00F649DF /* ContentView.swift */; };
 		CE8A21A52C99E30100F649DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8A21A42C99E30100F649DF /* Assets.xcassets */; };
 		CE8A21A82C99E30100F649DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8A21A72C99E30100F649DF /* Preview Assets.xcassets */; };
+		CE8A21AF2C99E3EC00F649DF /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A21AE2C99E3EC00F649DF /* TabBarView.swift */; };
+		CE8A21B12C99E40700F649DF /* LikedRecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A21B02C99E40700F649DF /* LikedRecipesView.swift */; };
+		CE8A21B32C99E42400F649DF /* AttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A21B22C99E42400F649DF /* AttributedText.swift */; };
+		CE8A21B52C99E43D00F649DF /* RecipeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A21B42C99E43D00F649DF /* RecipeModels.swift */; };
+		CE8A21B72C99E45700F649DF /* PantryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A21B62C99E45700F649DF /* PantryItem.swift */; };
+		CE8A21B92C99E47900F649DF /* PantryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A21B82C99E47900F649DF /* PantryManager.swift */; };
+		CE8A21BB2C99E49400F649DF /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A21BA2C99E49400F649DF /* RecipeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		CE8A21A22C99E2FF00F649DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE8A21A42C99E30100F649DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE8A21A72C99E30100F649DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE8A21AE2C99E3EC00F649DF /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		CE8A21B02C99E40700F649DF /* LikedRecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedRecipesView.swift; sourceTree = "<group>"; };
+		CE8A21B22C99E42400F649DF /* AttributedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedText.swift; sourceTree = "<group>"; };
+		CE8A21B42C99E43D00F649DF /* RecipeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModels.swift; sourceTree = "<group>"; };
+		CE8A21B62C99E45700F649DF /* PantryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryItem.swift; sourceTree = "<group>"; };
+		CE8A21B82C99E47900F649DF /* PantryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryManager.swift; sourceTree = "<group>"; };
+		CE8A21BA2C99E49400F649DF /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			children = (
 				CE8A21A02C99E2FF00F649DF /* FoodyApp.swift */,
 				CE8A21A22C99E2FF00F649DF /* ContentView.swift */,
+				CE8A21AE2C99E3EC00F649DF /* TabBarView.swift */,
+				CE8A21B02C99E40700F649DF /* LikedRecipesView.swift */,
+				CE8A21B22C99E42400F649DF /* AttributedText.swift */,
+				CE8A21B42C99E43D00F649DF /* RecipeModels.swift */,
+				CE8A21B62C99E45700F649DF /* PantryItem.swift */,
+				CE8A21B82C99E47900F649DF /* PantryManager.swift */,
+				CE8A21BA2C99E49400F649DF /* RecipeDetailView.swift */,
 				CE8A21A42C99E30100F649DF /* Assets.xcassets */,
 				CE8A21A62C99E30100F649DF /* Preview Content */,
 			);
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8A21B12C99E40700F649DF /* LikedRecipesView.swift in Sources */,
+				CE8A21BB2C99E49400F649DF /* RecipeDetailView.swift in Sources */,
 				CE8A21A32C99E2FF00F649DF /* ContentView.swift in Sources */,
+				CE8A21AF2C99E3EC00F649DF /* TabBarView.swift in Sources */,
+				CE8A21B72C99E45700F649DF /* PantryItem.swift in Sources */,
+				CE8A21B32C99E42400F649DF /* AttributedText.swift in Sources */,
 				CE8A21A12C99E2FF00F649DF /* FoodyApp.swift in Sources */,
+				CE8A21B52C99E43D00F649DF /* RecipeModels.swift in Sources */,
+				CE8A21B92C99E47900F649DF /* PantryManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
